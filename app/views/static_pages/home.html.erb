@@ -1,2 +1,14 @@
-<h1>Sample app</h1>
-<p>This is the home page!</p>
+<% provide(:title, "Home") %>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= yield(:title) %> | Ruby on rails tutorial sample app</title>
+</head>
+<body>
+
+	<h1>Sample app</h1>
+	<p>This is the home page!</p>
+
+</body>
+</html>
